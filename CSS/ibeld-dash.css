@@ -60,9 +60,28 @@ ul{
 .sidebar ul li a{
     transition: 0.3s;
     margin-bottom: 5px;
+    padding-bottom: 20px;
 }
 .sidebar ul li a span{
     font-size: 14px;
     margin-left: 10px;
+}
+@media (max-width: 767px) {
+    .sidebar{
+        width: 58px;
+        padding: 10px;
+    }
+    .sidebar ul li a span{
+        display: none;
+    }
+    .sidebar > h3{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .sidebar > h3::after,
+    .sidebar > h3::before{
+        display: none;
+    }
+   
 }
 /* end sidebar */
