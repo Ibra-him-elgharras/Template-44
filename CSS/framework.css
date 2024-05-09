@@ -5,6 +5,9 @@
 .align-center{
     align-items: center;
 }
+.w-full{
+    width: 100%;
+}
 /* end box */
 /* start padding and margin */
 .p-20{
@@ -46,4 +49,11 @@
     border-radius: 6px;
 }
 /* end border */
+/* start components */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* end components */
 
