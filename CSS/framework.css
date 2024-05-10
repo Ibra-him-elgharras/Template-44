@@ -29,7 +29,11 @@
     .block-mobile{
         display: block;
     }
+    .hide-mobile{
+        display: none;
+    }
 }
+
 .w-full{
     width: 100%;
 }
