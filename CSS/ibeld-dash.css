@@ -172,3 +172,26 @@ ul{
     }
 }
 /* end content head */
+/* start welcome */
+.welcome{
+    overflow: hidden;
+}
+.welcome .intro img{
+    width: 170px;
+    margin-bottom: -10px;
+}
+.welcome .body{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.welcome .body > div{
+    flex: 1;
+}
+.welcome .visit{
+    margin: 0 15px 15px auto;
+    transition:  0.3s;
+}
+.welcome .visit:hover{
+    background-color: var(--blue-alt-color);
+}
+/* end welcome */
