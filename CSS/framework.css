@@ -118,6 +118,11 @@
     align-items: center;
     justify-content: space-between;
 }
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn-shape{
     padding: 4px 10px;
     border-radius: 6px;
