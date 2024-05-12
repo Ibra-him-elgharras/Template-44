@@ -79,11 +79,23 @@
 .bg-blue{
     background-color: #0075ff;
 }
+.bg-green{
+    background-color: #22c55e;
+}
+.bg-orange{
+    background-color: #f44336;
+}
 .c-black{
     color: black;
 }
 .c-grey{
     color: var(--grey-color);
+}
+.c-green{
+    color: #22c55e;
+}
+.c-orange{
+    color: #f44336;
 }
 .c-white{
     color: white;
