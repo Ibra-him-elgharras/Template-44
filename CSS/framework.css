@@ -100,6 +100,12 @@
 .c-white{
     color: white;
 }
+.c-red{
+    color: red;
+}
+.c-blue{
+    color: blue;
+}
 /* end color */
 /* start position */
 .p-relative{
