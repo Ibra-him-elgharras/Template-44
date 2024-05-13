@@ -65,6 +65,12 @@
 .mt-20{
     margin-top: 20px;
 }
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
@@ -118,6 +124,9 @@
 }
 .fs-14{
     font-size: 14px;
+}
+.fs-25{
+    font-size: 25px;
 }
 @media (max-width: 767px) {
     .txt-c-mobile{
