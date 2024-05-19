@@ -362,3 +362,33 @@ ul{
     height: 40px;
 }
 /* end latest uploads */
+/* start last project */
+.last-project ul::before{
+    content: "";
+    position: absolute;
+    left: 11px;
+    width: 2px;
+    height: 100%;
+    background-color: var(--blue-color);
+}
+.last-project ul li::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+    outline: 2px solid var(--blue-color);
+    margin-right: 15px;
+}
+.last-project ul li.done::before{
+    content: "";
+}
+.last-project ul li.current::before{
+    content: "";
+}
+.last-project .lanch-icon {
+    
+}
+/* end last project */
