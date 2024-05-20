@@ -403,7 +403,7 @@ ul{
         background-color: var(--blue-color);
     }
     to{
-        background-color: var(--blue-color);
+        background-color: white;
     }
 }
 /* end annimation */
