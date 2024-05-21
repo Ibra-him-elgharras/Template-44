@@ -428,6 +428,29 @@ ul{
     min-height: 140px;
 }
 /* end latest post */
+/* start social media */
+.social-media .box{
+    padding-left: 70px;
+}
+.social-media .box i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    transition: 0.3s;
+}
+.social-media .box i:hover{
+    transform: rotate(5deg);
+}
+.social-media .twitter{
+    background-color: rgb(29 161 242 / 20%);
+    color: #1da1f2;
+}
+.social-media .twitter i,
+.social-media .twitter a{
+    background-color: #1da1f2;
+}
+/* end social mediat */
 /* start annimation */
 @keyframes change-color {
     from{
