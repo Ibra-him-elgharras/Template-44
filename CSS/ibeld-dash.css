@@ -401,7 +401,6 @@ ul{
 .reminders ul li .key{
     width: 15px;
     height: 15px;
-    border-radius: 50%;
 }
 .reminders ul li > .blue{
     border-left: 2px solid var(--blue-color);
@@ -416,6 +415,12 @@ ul{
     border-left: 2px solid var(--red-color);
 }
 /* end reminders */
+/* start latest post */
+.latest-post .avatar{
+    width: 48px;
+    height: 48px;
+}
+/* end latest post */
 /* start annimation */
 @keyframes change-color {
     from{

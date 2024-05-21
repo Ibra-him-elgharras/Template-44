@@ -168,7 +168,9 @@
 .rad-6{
     border-radius: 6px;
 }
-
+.rad-half{
+    border-radius: 50%;
+}
 /* end border */
 /* start components */
 .between-flex{
