@@ -450,6 +450,30 @@ ul{
 .social-media .twitter a{
     background-color: #1da1f2;
 }
+.social-media .facebook{
+    background-color: rgb(24 119 242 / 20%);
+    color: #1877f2;
+}
+.social-media .facebook i,
+.social-media .facebook a{
+    background-color: #1877f2;
+}
+.social-media .youtube{
+    background-color: rgb(255 0 0 / 20%);
+    color: #ff0000;
+}
+.social-media .youtube i,
+.social-media .youtube a{
+    background-color: #ff0000;
+}
+.social-media .linkedin{
+    background-color: rgb(10 102 194 / 20%);
+    color: #0a66c2;
+}
+.social-media .linkedin i,
+.social-media .linkedin a{
+    background-color: #0a66c2;
+}
 /* end social mediat */
 /* start annimation */
 @keyframes change-color {
