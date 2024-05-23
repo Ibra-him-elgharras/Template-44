@@ -475,6 +475,29 @@ ul{
     background-color: #0a66c2;
 }
 /* end social mediat */
+/* start project table */
+.projects .responsive-table{
+    overflow-x: hidden;
+}
+.projects table{
+    min-width: 1000px;
+}
+.projects thead td{
+    background-color: #eee;
+    font-weight: bold;
+}
+.projects tbody td{
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.projects table img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+/* end project table */
 /* start annimation */
 @keyframes change-color {
     from{
