@@ -508,6 +508,10 @@ ul{
 .projects table img:not(:first-child){
     margin-left: -20px;
 }
+.projects table .label{
+    font-size: 13px;
+    
+}
 /* end project table */
 /* start annimation */
 @keyframes change-color {
